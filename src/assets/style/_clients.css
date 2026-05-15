@@ -1,0 +1,17 @@
+.clients{
+    padding: 100px 0 50px;
+}
+.clients h2{
+    text-align: center;
+}
+
+.clients p{
+    text-align: center;
+    margin-bottom: 32px;
+}
+.clients__logos{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    flex-wrap: wrap;
+}

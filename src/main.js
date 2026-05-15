@@ -1,4 +1,4 @@
-import './assets/style/style.scss'
+import './assets/style/style.css'
 
 import { createApp } from 'vue'
 import App from './App.vue'
@@ -10,13 +10,4 @@ app.use(router)
 
 app.mount('#app')
 
-// open / close nav
-const buttonMenu = document.querySelector(".mobile-navigation__header-button");
-const mobileNavigation = document.querySelector(".mobile-navigation");
-
-buttonMenu.addEventListener("click", buttonMenuClicked);
-
-function buttonMenuClicked() {
-	mobileNavigation.classList.toggle("opened");
-	document.querySelector("html").classList.toggle("hidden");
-}
+import 'bootstrap/dist/js/bootstrap.bundle.min.js'

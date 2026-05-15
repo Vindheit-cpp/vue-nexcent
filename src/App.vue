@@ -1,16 +1,13 @@
 <script setup>
-import {  RouterView } from 'vue-router'
 import VHeader from './components/VHeader.vue'
+import { RouterView } from 'vue-router'
 import VFooter from './components/VFooter.vue'
 </script>
 
 <template>
   <VHeader />
-
   <RouterView />
-  <VFooter/>
+  <VFooter />
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

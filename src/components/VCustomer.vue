@@ -3,17 +3,24 @@
 </script>
 
 <template>
-        <section class="customer">
-            <div class="container">
-                <div class="customer__content">
-                    <img src="@/assets/img/customer.jpg" alt="">
+    <section class="customer">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-4 mb-3 mb-lg-0">
+                    <img src="@/assets/img/customer.jpg" alt="" class="mx-auto w-100 d-block">
+                </div>
+                <div class="col-lg-8">
                     <div class="customer__text">
                         <p>
-                            Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum
-                            risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam
-                            in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula
+                            Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel
+                            rutrum
+                            risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique
+                            quam
+                            in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at
+                            ligula
                             molestie, nec molestie mi blandit. Suspendisse cursus tellus sed augue ultrices, quis
-                            tristique nulla sodales. Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse
+                            tristique nulla sodales. Suspendisse eget lorem eu turpis vestibulum pretium.
+                            Suspendisse
                             potenti. Quisque vulputate odio neque, eget efficitur libero condimentum id.
                         </p>
                         <div class="customer__text-info">
@@ -25,7 +32,6 @@
                     </div>
                 </div>
             </div>
-        </section>
-
-        
+        </div>
+    </section>
 </template>

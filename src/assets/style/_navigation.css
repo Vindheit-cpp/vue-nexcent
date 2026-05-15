@@ -1,0 +1,10 @@
+.decktop-navigation{
+    padding: 22px 0;
+    .nav-link{
+        color: black;
+    }
+}
+
+.decktop-navigation__list-element_active{
+    font-weight: 500;
+}

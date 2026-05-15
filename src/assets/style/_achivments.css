@@ -1,0 +1,29 @@
+.achivments{
+    padding: 60px 0;
+    margin: 50px 0;
+    background-color: #F5F7FA;
+}
+/* .achivments__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} */
+.achivments__content-header{
+    p{
+        color: #18191F;
+    }
+}
+/* .achivments__content-group{
+    display: grid;
+    grid-template-columns: repeat(2,270px);
+    row-gap: 40px;
+    column-gap: 24px;
+} */
+.achivments__item{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    p{
+        margin-bottom: 0;
+    }
+}

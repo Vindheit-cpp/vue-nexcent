@@ -1,0 +1,24 @@
+.customer {
+    padding: 50px 0;
+
+    img {
+        border-radius: 8px;
+    }
+}
+
+.customer__text p {
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.customer__text-info {
+    h4 {
+        color: #4CAF4F;
+        margin-bottom: 8px;
+    }
+
+    p {
+        font-weight: 400;
+        margin-bottom: 0;
+    }
+}
