@@ -102,3 +102,12 @@ onMounted(() => {
     </section>
 
 </template>
+<style>
+.swiper{
+    padding: 35px;
+    margin: -35px;
+}
+.swiper-slide{
+    height: auto !important;
+}
+</style>
